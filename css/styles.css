@@ -80,13 +80,30 @@ html{
 .price{
 	display: inline-block;
 	clear: both;
+	margin:0;
+	padding: 0;
+	width: 100%;
+}
+
+.money-content{
+	width: 19%;
+	display: inline-block;
+	line-height: 0.1em;
 }
 
 .money-title{
 	color: #00b6b2;
 	font-size: 1em;
 	text-align: center;
-	display: inline-block;
+	display: block;
+	margin: 8px auto;
+	min-width: 50px;
+}
+
+.value-price{
+	color: #FFF;
+	text-align: center;
+	line-height: 0.5em;
 }
 
 /*Logotipo Menu*/
