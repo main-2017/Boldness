@@ -1,4 +1,12 @@
 /*Estilos principales*/
+@font-face{
+	font-family: 'Social Circles';
+    src: url('Social Circles v1.1.otf');
+    src: local('Social Circles v1.1'),
+         url('Social Circles v1.1.otf') format('OpenType'),
+         url('Social Circles v1.1.otf') format('opentype');
+}
+
 html{
 	font-family: 'Raleway', sans-serif;
 	font-size: 12px;
@@ -215,4 +223,39 @@ html{
 	background: -ms-linear-gradient(top, rgba(0,130,130,1) 0%, rgba(0,182,179,1) 35%, rgba(0,182,179,1) 63%, rgba(0,130,130,1) 100%);
 	background: linear-gradient(to bottom, rgba(0,130,130,1) 0%, rgba(0,182,179,1) 35%, rgba(0,182,179,1) 63%, rgba(0,130,130,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008282', endColorstr='#008282', GradientType=0 );
+}
+
+.circle-icon{
+	display: block;
+	margin: 20% auto 0 auto;
+}
+
+.subsection-titlue{
+	color: #FFF;
+	font-size: 2em;
+	font-weight: 500;
+	width: 100%;
+	text-align: center;
+	margin-top: 3.5%;
+}
+
+.servicios-description{
+	width: 70%;
+	color: #FFF;
+	text-align: center;
+	font-size: 1em;
+	font-weight: 100;
+	margin: 5% 15% auto 15%;
+	position: relative;
+}
+
+/*Contacto*/
+.contacto{
+	width: 100%;
+	height: 100vh;
+	background-image: url(../img/contact-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
 }
