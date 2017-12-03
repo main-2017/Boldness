@@ -63,3 +63,40 @@ function scaleBannerVideoSize(element){
 
     });
 }
+
+//Money loader
+
+//Obtiene el precio actual de la crytomoneda y la inserta en la vista
+function actualPrice(crypto, cash, id){
+  	var value;
+  	$.get('https://api.coinmarketcap.com/v1/ticker/'+crypto+'/?convert='+cash+'')
+	   .done(function(data){
+	   		var content = data;
+	   		value = content[0].price_usd;
+	   		changeP = parseFloat(content[0].percent_change_1h);
+	   		console.log(changeP);
+			$(id).text(value);
+			if (changeP > 0) {
+				$(id).css("color","#00cc00");
+			}else{
+				$(id).css("color","#FF0000");
+			}
+	   });
+  }
+
+//Ejecuta al cargar la pagina
+$(document).ready(function(){
+	actualPrice('bitcoin','USD', '#btc');
+	actualPrice('ethereum','USD', '#eth');
+	actualPrice('bitcoin-cash','USD', '#bch');
+	actualPrice('ripple','USD', '#xrp');
+
+//Ejecuta cada 5 minutos	
+	setInterval(function(){
+		actualPrice('bitcoin','USD', '#btc');
+		actualPrice('ethereum','USD', '#eth');
+		actualPrice('bitcoin-cash','USD', '#bch');
+		actualPrice('ripple','USD', '#xrp');
+	},500000);
+});
+

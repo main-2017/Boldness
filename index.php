@@ -28,7 +28,7 @@
 					<li><a class="styless-btn" href="#">Home</a></li>
 					<li><a class="styless-btn" href="3">Nosotros</a></li>
 					<li><a class="styless-btn" href="#">Servicios</a></li>
-					<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect colored-blue">CLIENTES</button>
+					<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect colored-blue">CONTACTO</button>
 				</ul>
 			</nav>
 			<h1 class="main-title">El éxito no se gana,<br>se persigue</h1>
@@ -36,10 +36,10 @@
 			<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect colored-blue" id="start-btn">COMENCEMOS</button>
 			<div class="price-bar" id="price-bar">
 				<ul class="price" id="price">
-					<li class="money-content"><h5 class="money-title">BITCOIN</h5><p class="value-price" id="btc">00,00</p></li>
-					<li class="money-content"><h5 class="money-title">ETHEREUM</h5><p class="value-price" id="eth">00,00</p></li>
-					<li class="money-content"><h5 class="money-title">BITCOIN CASH</h5><p class="value-price" id="bch">00,00</p></li>
-					<li class="money-content"><h5 class="money-title">RIPPLE</h5><p class="value-price" id="xrp">00,00</p></li>
+					<li class="money-content"><h5 class="money-title">BITCOIN</h5><p class="value-price" id="bitcoin">00,00</p></li>
+					<li class="money-content"><h5 class="money-title">ETHEREUM</h5><p class="value-price" id="ethereum">00,00</p></li>
+					<li class="money-content"><h5 class="money-title">BITCOIN CASH</h5><p class="value-price" id="bitcoin-cash">00,00</p></li>
+					<li class="money-content"><h5 class="money-title">RIPPLE</h5><p class="value-price" id="ripple">00,00</p></li>
 					<li class="money-content"><h5 class="money-title">TRANSACCIONES</h5><p class="value-price" id="transacciones">00,00</p></li>
 				</ul>
 			</div>
