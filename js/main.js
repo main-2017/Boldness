@@ -84,20 +84,32 @@ function actualPrice(crypto, cash, id){
 	   });
   }
 
+ cash = 'USD';
+
 //Ejecuta al cargar la pagina
 $(document).ready(function(){
-	actualPrice('bitcoin','USD', '#btc');
-	actualPrice('ethereum','USD', '#eth');
-	actualPrice('bitcoin-cash','USD', '#bch');
-	actualPrice('ripple','USD', '#xrp');
+	actualPrice('bitcoin',cash, '#btc');
+	actualPrice('ethereum',cash, '#eth');
+	actualPrice('bitcoin-cash',cash, '#bch');
+	actualPrice('dash',cash, '#dash');
+	actualPrice('litecoin',cash, '#ltc');
+	actualPrice('iota',cash, '#miota');
+	actualPrice('monero',cash, '#xmr');
+	actualPrice('omisego',cash, '#omg');
+	actualPrice('EOS',cash, '#eos');
 
 //Ejecuta cada 5 minutos	
 	setInterval(function(){
 		console.log("Actualizando precios...")
-		actualPrice('bitcoin','USD', '#btc');
-		actualPrice('ethereum','USD', '#eth');
-		actualPrice('bitcoin-cash','USD', '#bch');
-		actualPrice('ripple','USD', '#xrp');
+		actualPrice('bitcoin',cash, '#btc');
+		actualPrice('ethereum',cash, '#eth');
+		actualPrice('bitcoin-cash',cash, '#bch');
+		actualPrice('dash',cash, '#dash');
+		actualPrice('litecoin',cash, '#ltc');
+		actualPrice('iota',cash, '#miota');
+		actualPrice('monero',cash, '#xmr');
+		actualPrice('omisego',cash, '#omg');
+		actualPrice('EOS',cash, '#eos');
 	},500000);
 });
 
