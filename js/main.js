@@ -93,6 +93,7 @@ $(document).ready(function(){
 
 //Ejecuta cada 5 minutos	
 	setInterval(function(){
+		console.log("Actualizando precios...")
 		actualPrice('bitcoin','USD', '#btc');
 		actualPrice('ethereum','USD', '#eth');
 		actualPrice('bitcoin-cash','USD', '#bch');
