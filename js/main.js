@@ -113,3 +113,31 @@ $(document).ready(function(){
 	},500000);
 });
 
+
+// Caracteristicas adaptables
+
+// Cambio a menu hamburguesa
+var wWidth;
+
+
+	wWidth = $(window).width();
+	menuVanish(wWidth);
+
+
+$(window).resize(function(){
+	wWidthR = $(window).width();
+	menuVanish(wWidthR);
+});
+
+
+function menuVanish(winSize){
+	console.log("Resolucion detectada: " + winSize +" px");
+
+	if (winSize < 768) {
+		$('#menu-vanish').css("display","none");
+		$('#toggle-menu-small').css("display","block");
+	}else{
+		$('#toggle-menu-small').css("display","none");
+		$('#menu-vanish').css("display","block");
+	}
+}

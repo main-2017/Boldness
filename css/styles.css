@@ -41,6 +41,11 @@ html{
 	float: right;
 }
 
+.menu-icon{
+	width: 20px;
+	margin-right: 8px;
+}
+
 .main-menu ul li{
 	color: #FFF;
 	font-size: 1.2em;
@@ -383,4 +388,29 @@ li.social-circle{
 
 .maingroup-link:hover{
 	color: #8cc541;
+}
+
+/*Toggle Menu*/
+/*Menu vertical*/
+
+.vertical-menu{
+	height: 100%;
+	width: 70%;
+	background-color: rgba(0,0,0,.7);
+}
+
+.vertical-btn{
+	display: block !important;
+	width: 100%;
+	margin: 0 !important;
+}
+
+.vertical-btn a {
+	text-align: center !important;
+	display: block;
+}
+
+.small-btn{
+	display: block !important;
+	margin: auto !important;
 }

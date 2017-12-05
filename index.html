@@ -17,20 +17,45 @@
   	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
   	<link rel="stylesheet" type="text/css" href="css/styles.css">
+  	<link rel="stylesheet" type="text/css" media="(max-width:320px)" href="css/little-smathphone-styles.css">
 </head>
 <body>
 	<main>
 		<!-- Seccion de Landing Page -->
 		<section class="landing" id="landing">
-			<nav class="main-menu">
-				<div class="logo-container"><img class="logo-menu" src="img/logo-menu.png"></div>
-				<ul>
-					<li><a class="styless-btn" href="#">Home</a></li>
-					<li><a class="styless-btn" href="3">Nosotros</a></li>
-					<li><a class="styless-btn" href="#">Servicios</a></li>
-					<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect colored-blue">CLIENTES</button>
-				</ul>
-			</nav>
+		<!-- Menu para dispositivos moviles -->
+				<div id="toggle-menu-small" style="display: none;">
+					<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+					  	<header class="mdl-layout__header" style="background-color: rgba(0,0,0,.7);">
+					    	<div class="mdl-layout__header-row">
+					      	<!-- Title -->
+					      		<div class="mdl-layout-spacer"></div>
+					      		<span class="mdl-layout-title" style="margin-right: 4px;"><img id="logo-menu-small" src="img/logo-menu.png"></span>
+					      		<!-- Add spacer, to align navigation to the right -->
+					    	</div>
+					 	</header>
+					  	<div class="mdl-layout__drawer" style="background-color: rgba(0,23,24,.9);border: none">
+					    	<nav class="mdl-navigation">
+					      		<a class="mdl-navigation__link" style="text-align: left;margin-left: 20px;" href=""> <img class="menu-icon" src="img/menu-icons/home.png"> Home</a>
+					      		<a class="mdl-navigation__link" style="text-align: left;margin-left: 20px;" href=""> <img class="menu-icon" src="img/menu-icons/nosotros.png"> Nosotros</a>
+					      		<a class="mdl-navigation__link" style="text-align: left;margin-left: 20px;" href=""> <img class="menu-icon" src="img/menu-icons/servicios.png"> Servicios</a>
+					      		<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect colored-blue" style="margin: 0 auto;width: 80%;display: block;">CLIENTES</button>
+					    	</nav>
+					  </div>
+					</div>
+				</div>
+		<!-- Menu para desktop -->	
+				<header>
+				<nav class="main-menu" id="menu-vanish">
+					<div class="logo-container"><img class="logo-menu" src="img/logo-menu.png"></div>
+					<ul>
+						<li><a class="styless-btn" href="#">Home</a></li>
+						<li><a class="styless-btn" href="3">Nosotros</a></li>
+						<li><a class="styless-btn" href="#">Servicios</a></li>
+						<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect colored-blue">CLIENTES</button>
+					</ul>
+				</nav>
+			</header>
 			<h1 class="main-title">El éxito no se gana,<br>se persigue</h1>
 			<h3 class="main-subtitle">Te ayudamos a hacerlo</h3>
 			<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect colored-blue" id="start-btn">COMENCEMOS</button>
@@ -38,7 +63,7 @@
 				<ul class="price" id="price">
 					<li class="money-content"><h5 class="money-title">BITCOIN</h5><p class="value-price" id="btc">00,00</p></li>
 					<li class="money-content"><h5 class="money-title">ETHEREUM</h5><p class="value-price" id="eth">00,00</p></li>
-					<li class="money-content"><h5 class="money-title">BITCOIN CASH</h5><p class="value-price" id="bch">00,00</p></li>
+					<li class="money-content"><h5 class="money-title">BTC CASH</h5><p class="value-price" id="bch">00,00</p></li>
 					<li class="money-content"><h5 class="money-title">DASH</h5><p class="value-price" id="dash">00,00</p></li>
 					<li class="money-content"><h5 class="money-title">LITECOIN</h5><p class="value-price" id="ltc">00,00</p></li>
 					<li class="money-content"><h5 class="money-title">IOTA</h5><p class="value-price" id="miota">00,00</p></li>
@@ -62,7 +87,7 @@
 			<div class="homepage-hero-module">
     			<div class="video-container">
         			<div class="filter"></div>
-        				<video autoplay loop class="fillWidth">
+        				<video id="video" autoplay loop class="fillWidth">
             				<source src="media/MP4/Working-Space.mp4" type="video/mp4" />
             				<source src="media/WEBM/Working-Space.webm" type="video/webm" />
             				<source src="media/OGV/Working-Space.ogv" type="video/ogv">
@@ -117,7 +142,7 @@
 		</section>
 	</main>
 	<!-- Scripts -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
