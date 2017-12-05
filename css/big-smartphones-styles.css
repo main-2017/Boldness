@@ -1,15 +1,19 @@
-/*Estilos aplicados a telefonos  o dispositivos con menos de 320px de ancho*/
+/*Estilos aplicados a telefonos  o dispositivos de entre 321 y 500px de ancho*/
 #logo-menu-small{
 	width: 80px;
 }
 
 .landing{
 	background: url('../img/landing-bg-phone.jpg');
+	padding-bottom: 10px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .main-title{
 	font-size: 1.4em;
-	margin: 150px auto auto auto;
+	margin: 50% auto auto auto;
 	text-align: center;
 }
 
@@ -56,6 +60,8 @@
 .section-title{
 	top: 7%;
 	line-height: 1.3em;
+	width: 90%;
+	margin: 5%;
 }
 
 .nosotros-description{
