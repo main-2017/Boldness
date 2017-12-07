@@ -5,7 +5,7 @@
 
 .landing{
 	background: url('../img/landing-bg-phone.jpg');
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -13,7 +13,7 @@
 
 .main-title{
 	font-size: 1.4em;
-	margin: 50% auto auto auto;
+	margin: 45% auto auto auto;
 	text-align: center;
 }
 
@@ -24,7 +24,7 @@
 }
 
 #start-btn{
-	margin: 10% auto auto auto;
+	margin: 5% auto auto auto;
 	display: block;
 }
 
@@ -60,16 +60,17 @@
 .section-title{
 	top: 7%;
 	line-height: 1.3em;
-	width: 90%;
-	margin: 5%;
+	font-size: 1.7em;
+	width: 80%;
+	margin: 10%;
 }
 
 .nosotros-description{
 	text-align: left;
-	width: 85%;
+	width: 80%;
 	font-size: 0.9em;
 	line-height: 1.5em;
-	margin: 0 7.25% auto 7.25%;
+	margin: 0 10% auto 10%;
 	top: 32%;
 }
 
@@ -82,7 +83,7 @@
 	width: 100%;
 	clear: both;
 	position: relative;
-	min-height: 100vh;
+	min-height: 100%;
 	height: auto;
 }
 
@@ -90,12 +91,12 @@
 	width: 100%;
 	clear: both;
 	position: relative;
-	min-height: 100vh;
+	min-height: 100%;
 	height: auto;
 }
 
 .circle-icon{
-	width: 30%;
+	width: 25%;
 	height: auto;
 }
 
@@ -116,17 +117,19 @@
     margin: 5% auto auto auto;
     position: relative;
     line-height: 1.2em;
-    padding-bottom: 2%;
+    padding-bottom: 20%;
 }
 
 /*Seccion contacto*/
 .contacto{
 	background: url('../img/contact-bg-phone.jpg');
+	background-size: cover;
+	background-position: center;
 	clear: both;
 }
 
 #footer{
-	height: 30%;
+	height: 20%;
 }
 
 .social-icon{
