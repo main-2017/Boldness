@@ -1,4 +1,4 @@
-/*Estilos aplicados a telefonos  o dispositivos de entre 321 y 500px de ancho*/
+/*Estilos aplicados a telefonos  o dispositivos de entre 500 y 768px de ancho*/
 #logo-menu-small{
 	width: 80px;
 }
@@ -12,13 +12,13 @@
 }
 
 .main-title{
-	font-size: 1.7em;
+	font-size: 1.4em;
 	margin: 45% auto auto auto;
 	text-align: center;
 }
 
 .main-subtitle{
-	font-size: 1.2em;
+	font-size: 1em;
 	margin: 1% auto auto auto;
 	text-align: center;
 }
@@ -129,7 +129,7 @@
 }
 
 #footer{
-	height: 25%;
+	height: 20%;
 }
 
 .social-icon{

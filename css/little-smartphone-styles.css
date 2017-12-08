@@ -10,7 +10,7 @@
 
 .main-title{
 	font-size: 1.4em;
-	margin: 150px auto auto auto;
+	margin: 35% auto auto auto;
 	text-align: center;
 }
 
@@ -21,7 +21,7 @@
 }
 
 #start-btn{
-	margin: 10% auto auto auto;
+	margin: 5% auto auto auto;
 	display: block;
 }
 
@@ -57,6 +57,7 @@
 .section-title{
 	top: 7%;
 	line-height: 1.3em;
+	font-size: 1.7em;
 }
 
 .nosotros-description{
