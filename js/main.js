@@ -133,7 +133,7 @@ $(window).resize(function(){
 function menuVanish(winSize){
 	console.log("Resolucion detectada: " + winSize +" px");
 
-	if (winSize < 768) {
+	if (winSize <= 768) {
 		$('#menu-vanish').css("display","none");
 		$('#toggle-menu-small').css("display","block");
 	}else{

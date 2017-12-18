@@ -5,12 +5,13 @@
 
 .landing{
 	background: url('../img/landing-bg-phone.jpg');
+	background-size: cover;
 	padding-bottom: 10px;
 }
 
 .main-title{
 	font-size: 1.4em;
-	margin: 35% auto auto auto;
+	margin: 57% auto auto auto;
 	text-align: center;
 }
 

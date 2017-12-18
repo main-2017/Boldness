@@ -1,24 +1,16 @@
-/*Estilos aplicados a telefonos  o dispositivos de entre 500 y 768px de ancho*/
-#logo-menu-small{
-	width: 80px;
-}
-
+/*Estilos para dispositivos con resoluciones mayores a 501px a 767px*/
 .landing{
-	background: url('../img/landing-bg-phone.jpg');
-	padding-bottom: 20px;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-position: 70%;
 }
 
 .main-title{
-	font-size: 1.4em;
+	font-size: 2.7em;
 	margin: 45% auto auto auto;
 	text-align: center;
 }
 
 .main-subtitle{
-	font-size: 1em;
+	font-size: 1.7em;
 	margin: 1% auto auto auto;
 	text-align: center;
 }
@@ -28,9 +20,6 @@
 	display: block;
 }
 
-.landing{
-	background-position: 70%;
-}
 
 .price-bar{
 	height: 25%;
@@ -129,7 +118,7 @@
 }
 
 #footer{
-	height: 20%;
+	height: 25%;
 }
 
 .social-icon{

@@ -1,0 +1,99 @@
+/*Estilos para tablets de 768px de ancho a 960px*/
+.landing{
+	background-position: 65%;
+}
+
+.main-title{
+	margin: 30% auto auto 7% !important;
+}
+
+.main-subtitle{
+	margin: 1% auto auto 7%;
+}
+
+#start-btn{
+	margin: 2% auto auto 7%;
+}
+
+.price-bar {
+	width: 100%;
+	margin: 0;
+}
+
+.money-content{
+	width: 10.5%;
+}
+
+/*Seccion Nosotros*/
+.left-side-content{
+	width: 100%;
+	height: 40%;
+	top: 0;
+}
+
+.section-title{
+	top: 7%;
+}
+
+.nosotros-description{
+	text-align: left;
+	width: 85%;
+	margin: 0 7.25% auto 7.25%;
+	top: 35%;
+}
+
+#video{
+	right: 0;
+}
+
+/*Seccion Servicios*/
+.clored-blue{
+	width: 100%;
+	clear: both;
+	padding-bottom: 100px;
+	position: relative;
+	min-height: 50vh;
+	height: auto;
+}
+
+.right-side-content{
+	width: 100%;
+	clear: both;
+	position: relative;
+	min-height: 50vh;
+	padding-bottom: 100px;
+	height: auto;
+}
+
+.circle-icon{
+	width: 30%;
+	height: auto;
+}
+
+.subsection-titlue{
+	line-height: 1.3em;
+	font-size: 2em;
+	width: 80%;
+	display: block;
+	margin: 5% auto;
+}
+
+.servicios-description{
+	width: 80%;
+    color: #FFF;
+    text-align: left;
+    font-size: 1.3em;
+    font-weight: 100;
+    margin: 5% auto auto auto;
+    position: relative;
+    line-height: 1.2em;
+    padding-bottom: 2%;
+}
+
+/*Contacto*/
+.contacto{
+	background-position: left;
+	min-height: 100vh;
+	height: auto;
+	clear: both;
+}

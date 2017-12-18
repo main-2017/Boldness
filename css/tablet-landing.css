@@ -1,0 +1,30 @@
+/*Estilos aplicados a dispositivos de entre 768 y 1300px de ancho*/
+.main-title{
+	margin: 25% auto auto 7% !important;
+}
+
+.main-subtitle{
+	margin: 1% auto auto 7%;
+}
+
+#start-btn{
+	margin: 2% auto auto 7%;
+}
+
+/*Barra de precios*/
+.money-content{
+	width: 10.7%;
+}
+
+.price-bar {
+	height: 10%;
+}
+
+/*Nosotros*/
+.section-title{
+	top: 37%;
+}
+
+.nosotros-description{
+	top: 47%;
+}
