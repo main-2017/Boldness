@@ -1,0 +1,31 @@
+/*Estilos para dispositivos apaisados*/
+
+#price-bar{
+	position: relative;
+	margin: 10% 5%;
+}
+
+.section-title {
+    top: 7%;
+    line-height: 2.4em;
+    font-size: 1.7em;
+    padding-bottom: 50px;
+    width: 80%;
+    margin: 10%;
+    clear:both;
+}
+
+.nosotros-description{
+	margin: 5% 10% auto 10%;
+	position:relative;
+}
+
+#video{
+       width:100% !important;
+       height:auto !important;
+       margin-left:0 !important;
+}
+
+#footer{
+	height: auto;
+}
