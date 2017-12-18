@@ -1,6 +1,10 @@
+body{
+	text-align: center;
+}
+
 .main-title {
     font-size: 1.7em;
-    margin: 60% auto auto auto;
+    margin: 64% auto auto auto;
 }
 
 .main-subtitle {

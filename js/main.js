@@ -141,3 +141,7 @@ function menuVanish(winSize){
 		$('#menu-vanish').css("display","block");
 	}
 }
+
+// Smooth scroll
+$('a.styless-btn').smoothScroll();
+$('a.mdl-navigation__link').smoothScroll();

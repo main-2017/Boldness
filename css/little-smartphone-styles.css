@@ -59,10 +59,12 @@
 	top: 7%;
 	line-height: 1.3em;
 	font-size: 1.7em;
+	text-align: center;
+	margin-top: 0;
 }
 
 .nosotros-description{
-	text-align: left;
+	text-align: center;
 	width: 85%;
 	font-size: 0.9em;
 	line-height: 1.5em;
@@ -102,12 +104,13 @@
 	width: 80%;
 	display: block;
 	margin: 5% auto;
+	text-align: center;
 }
 
 .servicios-description{
 	width: 80%;
     color: #FFF;
-    text-align: left;
+    text-align: center;
     font-size: 1em;
     font-weight: 100;
     margin: 5% auto auto auto;

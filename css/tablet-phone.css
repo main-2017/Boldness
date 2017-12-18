@@ -55,7 +55,7 @@
 }
 
 .nosotros-description{
-	text-align: left;
+	text-align: center;
 	width: 80%;
 	font-size: 0.9em;
 	line-height: 1.5em;
@@ -100,7 +100,7 @@
 .servicios-description{
 	width: 80%;
     color: #FFF;
-    text-align: left;
+    text-align: center;
     font-size: 1em;
     font-weight: 100;
     margin: 5% auto auto auto;

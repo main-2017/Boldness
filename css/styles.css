@@ -14,6 +14,7 @@ html{
 	box-sizing: border-box;
 }
 
+
 /*Landing Page*/
 .landing{
 	width: 100%;
@@ -27,6 +28,7 @@ html{
 	background-position: center;
 	overflow: hidden;
 }
+
 /*Menu*/
 .main-menu{
 	width: 100%;
@@ -132,7 +134,7 @@ html{
 	font-weight: 600;
 	color: #FFF;
 	font-size: 2.5em;
-	margin: 15% auto auto 5%; 
+	margin: 15% auto auto 10%; 
 	line-height: 1.2em;
 }
 
@@ -140,11 +142,11 @@ html{
 	font-weight: 100;
 	color: #FFF;
 	font-size: 1.5em;
-	margin: 1% auto auto 5%;
+	margin: 1% auto auto 10%;
 }
 
 #start-btn{
-	margin: 2% auto auto 5%; 
+	margin: 2% auto auto 10%; 
 }
 
 /*Nosotros*/
@@ -206,9 +208,9 @@ html{
 	width: 100%;
 	text-align: center;
 	font-weight: 300;
-	position: absolute;
-	top: 30%;
+	position: relative;
 	z-index: 888888;
+	margin-top: 30%;
 }
 
 .left-side-content{
