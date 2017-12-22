@@ -1,0 +1,7 @@
+/*Estilos para dispositivos con resoluciones de 375px de ancho y 667px de alto*/
+
+.main-title {
+    font-size: 1.7em;
+    margin: 65% auto auto auto;
+    text-align: center;
+}

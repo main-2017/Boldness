@@ -1,0 +1,14 @@
+/*Estilos para Tablet de 800px de ancho y 480px de alto*/
+.main-title {
+    margin: 20% auto auto 7% !important;
+}
+
+.left-side-content {
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.footer {
+    height: auto;
+}
