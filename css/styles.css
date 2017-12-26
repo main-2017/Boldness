@@ -277,6 +277,8 @@ html{
 .circle-icon{
 	display: block;
 	margin: 20% auto 0 auto;
+	width: 165px;
+	height: auto;
 }
 
 .subsection-titlue{
