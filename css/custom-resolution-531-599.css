@@ -1,0 +1,22 @@
+/*Estilos para equipos con resoluciones que van desde los 531px a 599px de alto*/
+.main-title{
+	margin: 17% auto 0 10% !important;
+}
+
+.clored-blue{
+	height: auto;
+	padding-bottom: 30px;
+}
+
+.right-side-content{
+	height: auto;
+	padding-bottom: 30px;
+}
+
+.money-content{
+	width: 10.7%;
+}
+
+.footer{
+	height: 10%;
+}

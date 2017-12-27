@@ -1,0 +1,22 @@
+/*Estilos para dispositivos de 440px a 530px de alto*/
+.main-title{
+	margin: 15% auto 0 7% !important;
+}
+
+.clored-blue{
+	height: auto;
+	padding-bottom: 30px;
+}
+
+.money-content{
+	width: 12%;
+}
+
+.right-side-content{
+	height: auto;
+	padding-bottom: 30px;
+}
+
+.footer{
+	height: 10%;
+}

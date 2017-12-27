@@ -1,0 +1,117 @@
+/*Estilos para Ipad Pro Portrait*/
+
+.main-title{
+	margin: 48% auto auto 10%;
+}
+
+.money-content {
+    width: 10.7%;
+}
+
+/*Seccion Nosotros*/
+.left-side-content{
+	width: 100%;
+}
+
+.section-title{
+	top: 20%;
+	line-height: 1.3em;
+	font-size: 1.7em;
+	width: 80%;
+	margin: 10%;
+}
+
+.nosotros-description{
+	text-align: center;
+	width: 80%;
+	font-size: 0.9em;
+	line-height: 1.5em;
+	margin: 0 10% auto 10%;
+	top: 50%;
+}
+
+.homepage-hero-module{
+	height: 650px !important;
+}
+
+#nosotros{
+	height: 650px;
+	min-height: 0px;
+}
+
+/*Seccion Servicios*/
+.clored-blue{
+	width: 100%;
+	clear: both;
+	position: relative;
+	min-height: 100%;
+	height: auto;
+}
+
+.right-side-content{
+	width: 100%;
+	clear: both;
+	position: relative;
+	min-height: 100%;
+	height: auto;
+}
+
+.circle-icon{
+	width: 25%;
+	height: auto;
+}
+
+.subsection-titlue{
+	line-height: 1.3em;
+	font-size: 3em;
+	width: 70%;
+	display: block;
+	margin: 7.5% auto;
+}
+
+.servicios-description{
+	width: 70%;
+    color: #FFF;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 100;
+    margin: 7.5% auto auto auto;
+    position: relative;
+    line-height: 1.2em;
+    padding-bottom: 20%;
+}
+
+/*Seccion contacto*/
+.contacto{
+	background-size: cover;
+	background-position: 10%;
+	clear: both;
+}
+
+#footer{
+	height: 20%;
+}
+
+.social-icon{
+	width: 100%;
+	clear: both;
+	height: auto;
+}
+
+.social-row{
+	width: 140px;
+	display: block;
+	margin: 0 auto;
+}
+
+li.social-circle{
+	font-size: 2.91em;
+}
+
+.atributions{
+	clear: both;
+}
+
+.link-atribution{
+	text-align: center;
+}
