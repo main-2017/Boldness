@@ -1,11 +1,11 @@
 /*Estilos principales*/
-@font-face{
+/*@font-face{
 	font-family: 'Social Circles';
     src: url('Social Circles v1.1.otf');
     src: local('Social Circles v1.1'),
          url('Social Circles v1.1.otf') format('OpenType'),
          url('Social Circles v1.1.otf') format('opentype');
-}
+}*/
 
 html{
 	font-family: 'Raleway', sans-serif;
@@ -338,8 +338,7 @@ html{
 
 li.social-circle{
 	display: inline-block;
-	font-family: 'Social Circles';
-	font-size: 3em;
+	font-size: 1.5em;
 	text-align: center;
 	margin: 0 1%;
 	padding: 0;
@@ -350,7 +349,7 @@ li.social-circle{
 .social-circle span{
 	padding: 0;
 	margin: 0;
-	line-height: 1.2em;
+	line-height: 2.3em;
 }
 
 .social-link{
