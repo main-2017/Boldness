@@ -201,14 +201,15 @@ html{
 	width: 100%;
 	text-align: center;
 	font-weight: 300;
-	position: relative;
+	position: absolute;
 	z-index: 888888;
 	margin-top: 30%;
 }
 
 .left-side-content{
 	width: 50%;
-	height: 100%;
+	min-height: 100%;
+	height: auto;
 	float: left;
 	margin: 0;
 	background-color: rgba(0,0,0,.7);
@@ -238,9 +239,11 @@ html{
 
 .right-side-content{
 	width: 50%;
-	height: 100%;
+	min-height: 100%;
+	height: auto;
 	float: right;
 	margin: 0;
+	padding-bottom: 30px;
 	background-color: rgba(0,0,0,.7);
 	position: absolute;
 	top: 0;
@@ -257,6 +260,9 @@ html{
 }
 
 .left-side-content.clored-blue{
+	min-height: 100%;
+	height: auto;
+	padding-bottom: 30px;
 	background: rgba(0,130,130,1);
 	background: -moz-linear-gradient(top, rgba(0,130,130,1) 0%, rgba(0,182,179,1) 35%, rgba(0,182,179,1) 63%, rgba(0,130,130,1) 100%);
 	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,130,130,1)), color-stop(35%, rgba(0,182,179,1)), color-stop(63%, rgba(0,182,179,1)), color-stop(100%, rgba(0,130,130,1)));
