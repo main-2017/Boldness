@@ -145,3 +145,7 @@ function menuVanish(winSize){
 // Smooth scroll
 $('a.styless-btn').smoothScroll();
 $('a.mdl-navigation__link').smoothScroll();
+
+$(document).on('load',function(){
+	$('.instagram-pic').hide();
+});

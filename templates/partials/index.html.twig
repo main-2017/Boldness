@@ -1,0 +1,199 @@
+{% set theme_config = attribute(config.themes, config.system.pages.theme) %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Boldness Team</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Sitio web de Boldness Team">
+    <meta name="keywords" content="bitcoins, cryptomonedas, cash, divisas">
+    <meta name="author" content="Main Group | Agustin Ducca Pantaleon, Joaquin Borra, Juan Genco">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Icons & Favicon -->
+    <link rel="shortcut icon" href="user/themes/boldness/img/boldness-team-favicon.ico" /> 
+    <link rel="icon" href="user/themes/boldness/img/boldness-team-favicon.ico" />
+    <link rel="favicon" href="user/themes/boldness/img/boldness-team-favicon.ico" />
+    <!-- Estilos -->
+    <link rel="stylesheet" type="text/css" href="user/themes/boldness/css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> 
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <!--  <link rel="stylesheet" type="text/css" href="user/themes/boldness/css/mdl-modal.min.css"> --> 
+    <!-- Estilos principales -->
+    <link rel="stylesheet" type="text/css" href="user/themes/boldness/css/styles.css">
+    <!-- WOW Effect -->
+    <link rel="stylesheet" href="user/themes/boldness/css/animate.min.css">
+    <script src="user/themes/boldness/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!-- Estilos para small smartphones -->
+    <link rel="stylesheet" type="text/css" media="(max-width:320px)" href="user/themes/boldness/css/little-smartphone-styles.css">
+    <!-- Estilos para grandes smartphones -->
+    <link rel="stylesheet" type="text/css" media="(min-width:321px) and (max-width:500px)" href="user/themes/boldness/css/big-smartphones-styles.css">
+    <!-- Estilos para dispositivos con alturas atipicas -->
+    <link rel="stylesheet" type="text/css" media="(min-height:322px) and (max-height:439px) and (width:1024px)" href="user/themes/boldness/css/custom-resolution-300-439.css">
+    <link rel="stylesheet" type="text/css" media="(min-height:440px) and (max-height:530px) and (width:1024px)" href="user/themes/boldness/css/custom-resolution-1024-500.css">
+    <link rel="stylesheet" type="text/css" media="(min-height:531px) and (max-height:599px) and (width:1024px)" href="user/themes/boldness/css/custom-resolution-531-599.css">
+    <!-- Estilos para tab small -->
+    <link rel="stylesheet" type="text/css" media="(min-width:768px) and (max-width:959px)" href="user/themes/boldness/css/small-tablets.css">
+    <!-- Estilos para resoluciones intermedias de tablet y phone -->
+    <link rel="stylesheet" type="text/css" media="(min-width:501px) and (max-width:767px)" href="user/themes/boldness/css/tablet-phone.css">
+    <!-- Estilos para tablets Grandes-->
+    <link rel="stylesheet" type="text/css" media="(width:1024px) and (height:600px)" href="user/themes/boldness/css/tablet-landing.css">
+    <!-- Estilos para Kindle Fire HD 7 -->
+    <link rel="stylesheet" type="text/css" media="(width:800px) and (height:480px)" href="user/themes/boldness/css/kindle-fire.css">
+    <!-- Estilos para ONE PLUS ONE -->
+    <link rel="stylesheet" type="text/css" media="(width:360px) and (height:640px)" href="user/themes/boldness/css/one-plus-styles.css">
+    <!-- Estilos Iphone 5 -->
+    <link rel="stylesheet" type="text/css" media="(width:375px) and (height:667px)" href="user/themes/boldness/css/iphone-5.css">
+    <!-- Estilos para LG-L70 -->
+    <link rel="stylesheet" type="text/css" media="(width:384px) and (height:640px)" href="user/themes/boldness/css/lg-l70.css">
+    <!-- Estilos para SAMSUNG GALAXY S8 -->
+    <link rel="stylesheet" type="text/css" media="(width:360px) and (height:740px)" href="user/themes/boldness/css/samsung-s8-styles.css">
+    <!-- Estilos para IPHONE 7 PLUS -->
+    <link rel="stylesheet" type="text/css" media="(width:414px) and (height:736px)" href="user/themes/boldness/css/iphone-7plus-styles.css">
+    <!-- IPAD AIR -->
+    <link rel="stylesheet" type="text/css" media="(width:1024px) and (height:768px)" href="user/themes/boldness/css/ipad-air.css">
+    <!-- IPAD PRO -->
+    <link rel="stylesheet" type="text/css" media="(width:1366px) and (height:1024px)" href="user/themes/boldness/css/ipad-pro-landscape.css">
+    <link rel="stylesheet" type="text/css" media="(width:1024px) and (height:1366px)" href="user/themes/boldness/css/ipad-pro-portrait.css">
+    <!-- Estilos para dispositivos moviles en posicion horizontal -->
+    <link rel="stylesheet" type="text/css" media="screen and (max-width:768px) and (orientation: landscape)" href="user/themes/boldness/css/landscape.css">
+</head>
+<body>
+    <main>
+        <!-- Seccion de Landing Page -->
+        <section class="landing" id="landing">
+        <!-- Menu para dispositivos moviles -->
+                <div id="toggle-menu-small" style="display: none;">
+                    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+                        <header class="mdl-layout__header" style="background-color: rgba(0,0,0,.7); position: fixed;z-index: 9999999999999999">
+                            <div class="mdl-layout__header-row">
+                            <!-- Title -->
+                                <div class="mdl-layout-spacer"></div>
+                                <span class="mdl-layout-title" style="margin-right: 4px;"><img id="logo-menu-small" src="{{ url('theme://img/logo-menu.png', true) }}" /></span>
+                                <!-- Add spacer, to align navigation to the right -->
+                            </div>
+                        </header>
+                        <div class="mdl-layout__drawer" style="background-color: rgba(0,23,24,.9);border: none; position: fixed;z-index: 888888888;">
+                            <nav class="mdl-navigation" style="margin-top: 56px;padding-top:0;">
+                                <br>
+                                <a class="mdl-navigation__link" style="text-align: left;margin-left: 20px;" href="#landing"> <img class="menu-icon" src="{{ url('theme://img/menu-icons/home.png', true) }}"/> Home</a>
+                                <a class="mdl-navigation__link" style="text-align: left;margin-left: 20px;" href="#nosotros"> <img class="menu-icon" src="{{ url('theme://img/menu-icons/nosotros.png', true) }}"/> Nosotros</a>
+                                <a class="mdl-navigation__link" style="text-align: left;margin-left: 20px;" href="#servicios"> <img class="menu-icon" src="{{ url('theme://img/menu-icons/servicios.png', true) }}"/> Servicios</a>
+                                <a class="mdl-navigation__link" style="text-align: left;margin-left: 20px;" href="https://boldnessteam.typeform.com/to/Tv04Hn"> <img class="menu-icon" src="{{ url('theme://img/menu-icons/contacto.png', true) }}"/> Contacto</a>
+                                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect colored-blue" style="margin: 0 0 10px 20px;width: 80%;display: block;">CLIENTES</button>
+                            </nav>
+                      </div>
+                    </div>
+                </div>
+        <!-- Menu para desktop -->  
+                <header>
+                <nav class="wow fadeInDown main-menu" id="menu-vanish">
+                    <div class="logo-container"><img id="logo-menu" src="{{ url('theme://img/logo-menu.png', true) }}"/></div>
+                    <ul>
+                        <li><a class="styless-btn" href="#landing">Home</a></li>
+                        <li><a class="styless-btn" href="#nosotros">Nosotros</a></li>
+                        <li><a class="styless-btn" href="#servicios">Servicios</a></li>
+                        <li><a class="styless-btn" href="https://boldnessteam.typeform.com/to/Tv04Hn">Contacto</a></li>
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect colored-blue">CLIENTES</button>
+                    </ul>
+                </nav>
+            </header>
+            <h1 class="wow fadeIn main-title">El éxito no se gana,<br>se persigue</h1>
+            <h3 class="wow fadeInUp main-subtitle">Te ayudamos a hacerlo</h3>
+            <a class="styless-btn" href="#nosotros"><button class="wow fadeInUp mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect colored-blue" id="start-btn">COMENCEMOS</button></a>
+            <div class="price-bar wow fadeInUp" id="price-bar">
+                <ul class="price" id="price">
+                    <li class="money-content"><h5 class="money-title">BITCOIN</h5><p class="value-price" id="btc">00,00</p></li>
+                    <li class="money-content"><h5 class="money-title">ETHEREUM</h5><p class="value-price" id="eth">00,00</p></li>
+                    <li class="money-content"><h5 class="money-title">BTC CASH</h5><p class="value-price" id="bch">00,00</p></li>
+                    <li class="money-content"><h5 class="money-title">DASH</h5><p class="value-price" id="dash">00,00</p></li>
+                    <li class="money-content"><h5 class="money-title">LITECOIN</h5><p class="value-price" id="ltc">00,00</p></li>
+                    <li class="money-content"><h5 class="money-title">IOTA</h5><p class="value-price" id="miota">00,00</p></li>
+                    <li class="money-content"><h5 class="money-title">MONERO</h5><p class="value-price" id="xmr">00,00</p></li>
+                    <li class="money-content"><h5 class="money-title">OMISEGO</h5><p class="value-price" id="omg">00,00</p></li>
+                    <li class="money-content"><h5 class="money-title">EOS</h5><p class="value-price" id="eos">00,00</p></li>
+                </ul>
+            </div>
+        </section>
+        <!-- Seccion Nosotros -->
+        <section class="nosotros" id="nosotros">
+            <div class="left-side-content">
+                <h2 class="section-title wow fadeInUp">Audaces por naturaleza</h2>
+                <p class="nosotros-description wow fadeInUp">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="homepage-hero-module">
+                <div class="video-container">
+                    <div class="filter"></div>
+                        <video id="video" autoplay loop class="fillWidth" poster="{{ url('theme://img/Working-Space.jpg', true) }}" />
+                            <source src="{{ url('theme://media/MP4/Working-Space.mp4', true) }}" type="video/mp4" />
+                            <source src="{{ url('theme://media/WEBM/Working-Space.webm', true) }}" type="video/webm" />
+                            <source src="{{ url('theme://media/OGV/Working-Space.ogv', true) }}" type="video/ogv">
+                        </video>
+                        <div class="poster hidden">
+                            <img alt="Cryptomonedas" src="{{ url('theme://img/Working-Space.jpg', true) }}" />
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- Seccion Servicios -->
+        <section class="servicios" id="servicios">
+            <div class="left-side-content clored-blue">
+                <img class="wow fadeInLeft circle-icon" src="{{ url('theme://img/trading.png', true) }}" />
+                <h3 class="wow fadeIn subsection-titlue">Trading de cryptomonedas</h3>
+                <p class="wow fadeInUp servicios-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="right-side-content">
+                <img class="wow fadeInRight circle-icon" src="{{ url('theme://img/multi-level.png', true) }}"/>
+                <h3 class="wow fadeIn subsection-titlue">Multi-level Marketing</h3>
+                <p class="wow fadeInUp servicios-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </section>
+        <!-- Seccion Contacto -->
+        <section class="contacto" id="contacto">
+            <div class="footer wow fadeIn" id="footer">
+                <div class="social-icon">
+                    <ul class="social-row">
+                        <a class="social-link" href="#" target="_blank"><li class ="social-circle"><span>f</span></li></a>
+                        <a class="social-link" href="https://www.instagram.com/boldnessteam/" target="_blank"><li class ="social-circle"><span>i</span></li></a>
+                        <a class="social-link" href="#" target="_blank"><li class ="social-circle"><span>t</span></li></a>
+                        <a class="social-link" href="#" target="_blank"><li class ="social-circle"><span>y</span></li></a>
+                    </ul>
+                </div>
+                <div class="social-icon rights">
+                    <h5 class="copy">&copy; 2017 Boldness Team</h5>
+                </div>
+                <div class="social-icon atributions">
+                    <h5 class="link-atribution">By <a href="http://maingroup.co/" target="_blank" class="maingroup-link">Main Group</a></h5>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Scripts -->
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Smooth-scroll (local) -->
+    <script src="user/themes/boldness/js/jquery.smooth-scroll.min.js"></script>
+    <!-- MDL -->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <!-- Scripts principales -->
+    <script src="user/themes/boldness/js/main.js"></script>
+{{ instagram_feed() }}
+</body>
+</html>
